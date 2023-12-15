@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #e0dcd1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.w1400 {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.Header {
+  height: 70px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.Header_Logo {
+  width: 200px;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header_NavBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  flex-wrap: nowrap;
+}
+
+.Header_Box {
+  white-space: nowrap;
+  text-align: left;
+  margin: 0 10px;
+  font-size: 32px;
+  position: relative;
+  display: inline;
+}
+
+.Header_Box::after {
+  content: "";
+  background-color: rgba(146, 208, 80, 0.5);
+  width: 100%;
+  height: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Header_Box:hover::after {
+  background-color: rgba(240, 222, 54, 0.5);
+}
+
+@media (max-width: 1440px) {
+  .Header {
+    width: 100%;
+    padding: 0 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .Header {
+    width: 100%;
+    padding: 0 50px;
+  }
+}
+@media (max-width: 767px) {
+  .Header_Logo > h1 {
+    font-size: 24px;
+  }
+  .Header_Box {
+    font-size: 24px;
+    text-align: left;
+    margin: 0 10px;
+    position: relative;
+    display: inline;
+  }
+
+  .Header {
+    width: 100%;
+    padding: 0 50px;
+  }
+  .Header_Box::after {
+    height: 12px;
+  }
+}

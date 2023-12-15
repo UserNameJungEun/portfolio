@@ -1,0 +1,22 @@
+.AboutMe_Skills {
+  width: 690px;
+}
+.Skills_BigBox {
+  display: flex;
+}
+.SKills_Twin {
+  text-align: left;
+  margin-top: 10px;
+  display: flex;
+}
+
+.SKills_Twin p {
+  color: red;
+  font-size: 10px;
+}
+.Skills_Right {
+  padding-left: 30px;
+}
+.Skills_BigBox {
+  padding: 30px 10px 10px 10px;
+}
