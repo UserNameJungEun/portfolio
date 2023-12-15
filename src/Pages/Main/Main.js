@@ -7,7 +7,7 @@ function Main() {
         <div>
           <div>
             <h1>배우고 익히는 하루 일상을 꿈꾸는</h1>
-            <h1> 예비 개발자 김정은입니다</h1>
+            <h1> 예비 개발자 김정은입니다ccccc</h1>
           </div>
           <div className="Main_Event">Loading---</div>
         </div>
