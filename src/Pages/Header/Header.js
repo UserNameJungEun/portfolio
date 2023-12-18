@@ -1,12 +1,15 @@
 import "./Header.css";
 
 import { Link } from "react-router-dom";
+import JungEunImage from "../../Image/JungEun.png";
 
 function Header() {
   return (
     <section className="Header w1400">
       <article className="Header_Logo">
-        <h1>Logo</h1>
+        <Link to="/Main">
+          <img src={JungEunImage} alt="JungEun" />
+        </Link>
       </article>
       <ul className="Header_NavBox">
         <Link>

@@ -8,7 +8,7 @@ function AboutMe() {
       <article className="AboutMe_AllPage">
         <div className="AboutMe_GridContainer">
           <div className="Grid_item Grid_Box1">
-            <div className="AboutMe_ImgBox">이미지 자리</div>
+            <div className="AboutMe_ImgBox"></div>
             <div className="AboutMe_ImgBox2"></div>
           </div>
 
