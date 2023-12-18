@@ -28,7 +28,9 @@ function Project() {
                 <h5>+Code review</h5>
               </div>
               <div className="Project_TextList">
-                <h1>프론트 엔드 사전</h1>
+                <a href="https://usernamejungeun.github.io/dic/">
+                  <h1>프론트 엔드 사전</h1>
+                </a>
                 <ul>
                   <li>데이터관리(Json)</li>
                   <li>글작성기능</li>
@@ -39,6 +41,7 @@ function Project() {
               </div>
             </div>
           </div>
+
           <div className="Project_AllBox">
             <div className="Project_MiniBox1">
               <img className="Project_2Image" src={ListImage} alt="List" />
@@ -76,10 +79,13 @@ function Project() {
               />
               <div className="Project_PusBtn">
                 <h5>+View Site</h5>
+
                 <h5>+Code review</h5>
               </div>
               <div className="Project_TextList">
-                <h1>FESTSURI</h1>
+                <a href="https://wjdgma603.github.io/FESTSURI/">
+                  <h1>FESTSURI</h1>{" "}
+                </a>
                 <ul>
                   <li>소개페이지 & 갤러리 페이지 구현</li>
                   <li>갤러리 사진 및 후기 직접 조사 후 관리</li>
@@ -102,7 +108,9 @@ function Project() {
                 <h5>+Code review</h5>
               </div>
               <div className="Project_TextList">
-                <h1>독:수리</h1>
+                <a href="https://kyuleee.github.io/docsuri">
+                  <h1>독:수리</h1>
+                </a>
                 <ul>
                   <li>교과학습페이지를 구현</li>
                   <li>수학문제에 대한지문과 이미지를 직접 제작</li>
